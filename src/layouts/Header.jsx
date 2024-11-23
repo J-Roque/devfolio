@@ -1,9 +1,12 @@
 import styled from "styled-components";
 export function Header() {
-  return (<Container>
-<h1>Componente</h1>
+  return (
+  <Container>
+
   </Container>);
 }
 const Container =styled.div`
-  
+  width: 100%;
+  height: 56px;
+  position: sticky;
 `

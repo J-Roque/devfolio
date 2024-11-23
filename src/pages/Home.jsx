@@ -1,9 +1,16 @@
 import styled from "styled-components";
+import {
+  Header,
+  Banner3d
+} from "../index";
 export function Home() {
-  return (<Container>
-<h1>Componente</h1>
+  return (
+  <Container>
+    <Header/>
+    <Banner3d/>
+
   </Container>);
 }
 const Container =styled.div`
-  
+
 `
