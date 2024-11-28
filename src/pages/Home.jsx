@@ -8,7 +8,6 @@ export function Home() {
   <Container>
     <Header/>
     <Banner3d/>
-
   </Container>);
 }
 const Container =styled.div`

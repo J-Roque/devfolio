@@ -3,7 +3,6 @@ import {Dragon} from "../../index"
 export function Banner3d() {
   return (
   <Container>
-    <Dragon/>
   </Container>);
 }
 const Container =styled.div`
