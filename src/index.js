@@ -1,6 +1,7 @@
 export * from './App'
 export * from './components/Banner3d/Banner3d'
 export * from './components/Banner3d/Dragon'
+export * from './components/SobreMi/SobreMi'
 export * from './index'
 export * from './layouts/Footer'
 export * from './layouts/Header'
