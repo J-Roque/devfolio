@@ -1,7 +1,8 @@
 import styled from "styled-components";
 import {
   Header,
-  Banner3d
+  Banner3d,
+  SobreMi
 } from "../index";
 import profileImage from '../assets/programer.png'
 export function Home() {
@@ -16,6 +17,7 @@ export function Home() {
         </div>
       </SectionInfo>
       <SectionDetails>
+      <SobreMi></SobreMi>
       </SectionDetails>
     </Main>
   </Container>);
@@ -35,14 +37,13 @@ const Main =styled.main`
 `
 const SectionInfo = styled.div`
   grid-area: SectionInfo;
-  background-color: lightblue;
-  /* position: relative; */
+  position: relative;
   .logo_perfil{
     width: 128px;
     height: 128px;
     border-radius:50%;
-    /* position: absolute; */
-    /* top: -50px; */
+    position: absolute;
+    top: -70px;
   }
   .logo_perfil .logo_perfil_img{
     width: 100%;
@@ -53,7 +54,7 @@ const SectionInfo = styled.div`
 `
 
 const SectionDetails = styled.div`
+  margin-top: 32px;
  grid-area: SectionDetails;
- background-color: lightcoral;
 
 `
